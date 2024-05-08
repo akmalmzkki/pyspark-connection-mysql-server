@@ -121,7 +121,8 @@ create table {your_prefered_table} (
 ```
 insert into {your_prefered_table} ({var_name_1}, {var_name_2}, ...) values 
     ('{values_1.1}', '{values_1.2}', ...),
-    ('{values_2.1}', '{values_2.2}', ...)
+    ('{values_2.1}', '{values_2.2}', ...),
+    ....
 ```
 ```
 exit

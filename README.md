@@ -1,6 +1,6 @@
 # Pyspark Connection MySQL Server
 
-### 1. Persiapan Lingkungan
+### <strong>1. Persiapan Lingkungan</strong>
 
 #### 1.1. Update dan Instalasi Default JDK
 ```
@@ -35,7 +35,7 @@ java --version
 python3 --version
 ```
 
-### 2. Instalasi dan Konfigurasi Apache Spark
+### <strong>2. Instalasi dan Konfigurasi Apache Spark</strong>
 
 #### 2.1. Unduh dan Ekstraksi Apache Spark
 ```
@@ -70,7 +70,7 @@ export PYSPARK_DRIVER_PYTHON=/usr/bin/python3.8
 source ~/.bashrc
 ```
 
-### 3. Instalasi dan Konfigurasi MySQL
+### <strong>3. Instalasi dan Konfigurasi MySQL</strong>
 
 #### 3.1. Instalasi MySQL Server
 ```
@@ -126,7 +126,7 @@ insert into {your_prefered_table} ({var_name_1}, {var_name_2}, ...) values
 exit
 ```
 
-### 4. Koneksi Spark dengan MySQL
+### <strong>4. Koneksi Spark dengan MySQL</strong>
 
 #### 4.1. Instalasi Paket Python
 ```
